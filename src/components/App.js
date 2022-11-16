@@ -24,7 +24,7 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/" component={Invalid} />
         </Switch>
-        <LocationDisplayComp />
+        <LocationDisplayComp data-testid="location-display" />
       </div>
     );
   }
