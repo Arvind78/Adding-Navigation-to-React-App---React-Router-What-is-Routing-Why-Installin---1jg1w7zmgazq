@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+ import React, { Component, useState } from "react";
 import "../styles/App.css";
 import { Link, Route, Switch, useLocation } from "react-router-dom";
 import LocationDisplayComp from "./LocationDisplay";
@@ -24,7 +24,7 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/" component={Invalid} />
         </Switch>
-        <LocationDisplayComp data-testid="location-display" />
+        <LocationDisplayComp />
       </div>
     );
   }
